@@ -16,7 +16,7 @@ dockitems_remove:
   - Contacts
   - Music
   - News
-  - Settings
+  - 'System Settings'
   - Podcasts
 dockitems_persist:
   - name: "Safari"
@@ -38,7 +38,7 @@ dockitems_persist:
     path: "/Applications/Reminders.app/"
     pos: 8
   - name: "Terminal"
-    path: "/Applications/Terminal.app/"
+    path: "/Applications/Utilities/Terminal.app/"
     pos: 9
   - name: "Sublime Text"
     path: "/Applications/Sublime Text.app/"
@@ -123,7 +123,7 @@ pip_packages: []
 #   version: "0.16.3" # default: N/A
 
 # Set to 'true' to configure Sublime Text.
-configure_sublime: false
+configure_sublime: true
 sublime_base_path: '~/Library/Application Support/Sublime Text'
 sublime_config_path: "Packages/User"
 sublime_package_control:
