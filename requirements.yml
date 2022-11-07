@@ -1,0 +1,7 @@
+---
+roles:
+  - name: elliotweiser.osx-command-line-tools
+  - name: javielico.dotfiles
+
+collections:
+  - name: javielico.mac
